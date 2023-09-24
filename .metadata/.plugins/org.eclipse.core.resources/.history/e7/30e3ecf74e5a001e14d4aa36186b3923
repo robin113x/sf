@@ -1,0 +1,20 @@
+package co.ro.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import co.ro.beans.Students;
+
+public class Main {
+
+	public static void main(String[] args) {
+		@SuppressWarnings("resource")
+		ApplicationContext context = new ClassPathXmlApplicationContext("/co/ro/resources/applicationContext.xml");
+		Students stdO = context.getBean("stdObj",Students.class);
+		stdO.display();
+		
+		Students stdO = context.getBean("stdObj",Students.class);
+		Students stdO = context.getBean("stdObj",Students.class);
+	}
+
+}

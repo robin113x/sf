@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="in.ro.beans.Employee"/>
+    <fullyQualifiedTypeName name="in.ro.resources.springConfigFile"/>
+    <fullyQualifiedTypeName name="in.ro.beans.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="co.ro.beans.Teacher"/>
+    <fullyQualifiedTypeName name="co.ro.beans.Student"/>
+    <fullyQualifiedTypeName name="co.ro.resources.studConfig"/>
+    <fullyQualifiedTypeName name="co.ro.resources.teacherConfig"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.ro.beans.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="co.ro.beans.Students"/>
+</qualifiedTypeNameHistroy>
