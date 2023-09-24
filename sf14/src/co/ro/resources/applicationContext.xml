@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location"
+			value="/co/ro/resources/student.properties" />
+	</bean>
+
+	<bean class="co.ro.beans.Student" id="stdObj">
+		<property name="name" value="${Student.name}" />
+		<property name="roll" value="${Student.roll}" />
+		<property name="subjMarks">
+			<map>
+				<entry key="c" value="${Student.subjMarks.c}" />
+				<entry key="C++" value="${Student.subjMarks.cpp}" />
+				<entry key="Java" value="${Student.subjMarks.Java}" />
+				<entry key="Python" value="${Student.subjMarks.Python}" />
+				<entry key="Bash" value="${Student.subjMarks.Bash}" />
+			</map>
+		</property>
+
+	</bean>
+
+
+</beans>

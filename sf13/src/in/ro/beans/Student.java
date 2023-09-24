@@ -1,5 +1,6 @@
 package in.ro.beans;
 
+import javax.annotation.PostConstruct;
 
 public class Student {
 	private String name;
@@ -10,28 +11,11 @@ public class Student {
 		System.out.println("Parameter value");
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getRoll() {
-		return roll;
-	}
-
-	public void setRoll(int roll) {
-		this.roll = roll;
-	}
-
-	public int getMarks() {
-		return marks;
-	}
-
-	public void setMarks(int marks) {
-		this.marks = marks;
+	@PostConstruct
+	public void initStdObj() {
+		name="robin";
+		roll=121;
+		marks=2324;
 	}
 
 	public void dispaly() {
