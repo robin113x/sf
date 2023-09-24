@@ -1,21 +1,14 @@
 INDEX VERSION 1.134+C:\Users\robinr\Documents\SpringCourse\.metadata\.plugins\org.eclipse.jdt.core
 2592800038.index
-3219893062.index
-638541601.index
 171303095.index
 3829105051.index
 1865797976.index
 2100482081.index
-641572389.index
 10173189.index
 4002765353.index
 3985493424.index
-2168375070.index
 223880366.index
 2470228237.index
-2399511081.index
 2576509631.index
-3919061987.index
 2053051448.index
 2488366356.index
-374599157.index
