@@ -1,6 +1,0 @@
-package com.ro.beans;
-
-public class Employe {
-	private String name;
-	private int 
-}
