@@ -16,6 +16,7 @@ public class Main {
 				);
 		Student std = context.getBean("student",Student.class);
 		System.out.println(std.getName());
+		System.out.println(std.getSubj());
 		
 
 	}
