@@ -1,22 +1,23 @@
 package co.ro.main;
 
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import co.ro.beans.Student;
-import co.ro.resources.configFile;
+import co.ro.resources.javaConfig;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		@SuppressWarnings("resource")
+		@SuppressWarnings({  "resource" })
 		ApplicationContext context = new AnnotationConfigApplicationContext(
-				configFile.class);
-		
-		Student std = context.getBean("stdObj",Student.class);
+				javaConfig.class
+				);
+		Student std = context.getBean("student",Student.class);
 		System.out.println(std.getName());
+		
+
 	}
 
 }
