@@ -2,12 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="in.ro.beans.Employee"/>
     <fullyQualifiedTypeName name="in.ro.resources.springConfigFile"/>
-    <fullyQualifiedTypeName name="co.ro.beans.Teacher"/>
     <fullyQualifiedTypeName name="co.ro.resources.studConfig"/>
     <fullyQualifiedTypeName name="co.ro.resources.teacherConfig"/>
     <fullyQualifiedTypeName name="com.ro.beans.Student"/>
-    <fullyQualifiedTypeName name="co.ro.beans.Students"/>
-    <fullyQualifiedTypeName name="in.ro.beans.Student"/>
     <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"/>
@@ -23,7 +20,14 @@
     <fullyQualifiedTypeName name="co.ro.resources.javaConfig"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="co.ro.beans.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="in.ro.beans.Address"/>
+    <fullyQualifiedTypeName name="in.ro.beans.Student"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="co.ro.beans.Student"/>
+    <fullyQualifiedTypeName name="java.nio.channels.AsynchronousByteChannel"/>
+    <fullyQualifiedTypeName name="co.ro.beans.Students"/>
+    <fullyQualifiedTypeName name="co.ro.beans.Teacher"/>
 </qualifiedTypeNameHistroy>

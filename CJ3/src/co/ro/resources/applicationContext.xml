@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stdObj" class="co.ro.beans.Students">
+        <property name="name" value="Rick"/>
+        <property name="roll" value="111"/>
+        <property name="tch" ref="tchObj"/>
+    </bean>
+    
+     <bean id="tchObj" class="co.ro.beans.Teacher">
+        <property name="name" value="Neha ji"/>
+        <property name="subj" value="Maths"/>
+        <property name="std" ref="stdObj"/>
+    </bean>
+    
+
+</beans>
