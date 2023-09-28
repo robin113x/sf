@@ -25,9 +25,9 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="in.ro.beans.Address"/>
     <fullyQualifiedTypeName name="in.ro.beans.Student"/>
+    <fullyQualifiedTypeName name="java.nio.channels.AsynchronousByteChannel"/>
+    <fullyQualifiedTypeName name="co.ro.beans.Teacher"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="java.nio.channels.AsynchronousByteChannel"/>
     <fullyQualifiedTypeName name="co.ro.beans.Students"/>
-    <fullyQualifiedTypeName name="co.ro.beans.Teacher"/>
 </qualifiedTypeNameHistroy>
