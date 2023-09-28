@@ -4,6 +4,15 @@ public class Students {
 	private String name;
 	private int roll;
 	private float marks;
+	private Teacher tch;
+
+	public Teacher getTch() {
+		return tch;
+	}
+
+	public void setTch(Teacher tch) {
+		this.tch = tch;
+	}
 
 	public String getName() {
 		return name;
@@ -31,9 +40,7 @@ public class Students {
 
 	@Override
 	public String toString() {
-		return "Students [name=" + name + ", roll=" + roll + ", marks=" + marks + "]";
+		return "Students [name=" + name + ", roll=" + roll + ", marks=" + marks  + "]";
 	}
-	
-	
 
 }

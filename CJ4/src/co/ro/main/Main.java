@@ -4,6 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import co.ro.beans.Students;
+import co.ro.beans.Teacher;
 
 public class Main {
 	@SuppressWarnings("resource")
@@ -11,5 +12,8 @@ public class Main {
 		ApplicationContext context = new ClassPathXmlApplicationContext("/co/ro/resources/applicationContext.xml");
 		Students std = context.getBean("stdObj",Students.class);
 		System.out.println(std.toString());
+		
+		Teacher tch = context.getBean("tchObj",Teacher.class);
+		System.out.println(tch.toString());
 	}
 }

@@ -6,6 +6,9 @@
             http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean class="co.ro.beans.Students" id="stdObj" p:name="Robin Roy"
-		p:roll="114" p:marks="99.2" />
+		p:roll="114" p:marks="99.2" p:tch-ref="tchObj" />
+
+	<bean class="co.ro.beans.Teacher" id="tchObj" p:name="Aish"
+		p:subj="Maths" p:std-ref="stdObj"  />
 
 </beans>
