@@ -6,14 +6,14 @@
 
 	<!-- bean definitions here -->
 
-	<bean class="co.ro.beans.Address" id="addObj">
+	<bean class="co.ro.beans.Address" id="addObj1">
 		<property name="location" value="MagarPatta" />
 		<property name="city" value="Pune" />
 		<property name="pincode" value="80124" />
 	</bean>
 
 
-	<bean class="co.ro.beans.Subjects" id="subjObj">
+	<bean class="co.ro.beans.Subjects" id="subjObj1">
 		<property name="subj">
 			<list>
 			<value>c</value>
@@ -25,7 +25,7 @@
 
 	</bean>
 
-	<bean class="co.ro.beans.Student" id="stdObj" autowire="byName">
+	<bean class="co.ro.beans.Student" id="stdObj" autowire="byType">
 		<property name="name" value="Robin" />
 		<property name="roll" value="123" />
 	</bean>
