@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+	<bean class="co.ro.beans.Address" id="addObj">
+		<property name="location" value="MagarPatta" />
+		<property name="city" value="Pune" />
+		<property name="pincode" value="80124" />
+	</bean>
+
+
+	<bean class="co.ro.beans.Subjects" id="subjObj">
+		<property name="subj">
+			<list>
+			<value>c</value>
+			<value>c++</value>
+			<value>java</value>
+			</list>
+			
+		</property>
+
+	</bean>
+
+	<bean class="co.ro.beans.Student" id="stdObj" autowire="byType">
+		<property name="name" value="Robin" />
+		<property name="roll" value="123" />
+	</bean>
+
+</beans>
