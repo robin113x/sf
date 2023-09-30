@@ -1,10 +1,15 @@
 package co.ro.beans;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Student {
 
 	private String name;
 	private int roll;
+	
+	@Autowired
 	private Subjects subj;
+	@Autowired
 	private Address addr;
 
 	

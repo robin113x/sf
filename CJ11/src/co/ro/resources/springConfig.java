@@ -38,10 +38,9 @@ public class springConfig {
 	@Bean("StdObjm")
 	public Student stdObjM() {
 		Student stdObj = new Student();
-		stdObj.setName("Aishuu");
+		stdObj.setName("Aishuu Roy");
 		stdObj.setRoll(123654);
-		stdObj.setAddr(addObjM());
-		stdObj.setSubj(subjObjM());
+		
 		return stdObj;
 	}
 	
