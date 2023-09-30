@@ -7,6 +7,7 @@ import com.ro.beans.Student;
 
 public class Main {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		ApplicationContext container = new ClassPathXmlApplicationContext("/com/ro/resources/applicationContext.xml");
 		Student std = container.getBean("stdObj",Student.class);
 		Student std2 = container.getBean("stdObj2",Student.class);
