@@ -1,34 +1,28 @@
 package co.ro.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+@Component
 public class Student {
 
 	private String name;
 	private int roll;
 
 	@Autowired
-	@Qualifier("subjObj1")
 	private Subjects subj;
 	@Autowired
 	private Address addr;
 
-	public void setName(String name) {
+	
+	public Student(@Value("Robin hood")String name,@Value("123") int roll, Subjects subj, Address addr) {
+		super();
 		this.name = name;
-	}
-
-	public void setRoll(int roll) {
 		this.roll = roll;
-	}
-
-	public void setSubj(Subjects subj) {
 		this.subj = subj;
-	}
-
-	public void setAddr(Address addr) {
 		this.addr = addr;
 	}
+
 
 	@Override
 	public String toString() {

@@ -22,7 +22,7 @@ public class springConfig {
 		return addObj;
 	}
 
-	@Bean
+	@Bean("subjObj1")
 	public Subjects subjObjM() {
 		Subjects subjObj = new Subjects();
 		List<String> list = new ArrayList<String>();
@@ -34,6 +34,21 @@ public class springConfig {
 		subjObj.setSubj(list);
 		return subjObj;
 	}
+	
+	
+	@Bean("subjObj2")
+	public Subjects subjObjM2() {
+		Subjects subjObj = new Subjects();
+		List<String> list = new ArrayList<String>();
+		// Adding elements in the List
+		list.add("Mango1");
+		list.add("Apple2");
+		list.add("Banana3");
+		list.add("Grapes4");
+		subjObj.setSubj(list);
+		return subjObj;
+	}
+	
 	
 	@Bean("StdObjm")
 	public Student stdObjM() {
