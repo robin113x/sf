@@ -17,7 +17,7 @@ public class StudentValidator implements Validator {
 	public void validate(Object target, Errors errors) {
 		Student stdObj = (Student)target;
 		if(stdObj.getRoll()<=0) errors.rejectValue("Roll", "key_ROll", "Roll no is not valid"); 
-		if(stdObj.getName().equals("") || stdObj.getName().equals("null")) errors.rejectValue("Name", "Invalid Name");
+		if(stdObj.getName().equals("") || stdObj.getName().equals("null")) errors.rejectValue("Name", "Mood karrab kr deya","Invalid Name");
 		if(stdObj.getPhone().length()!=10) errors.rejectValue("Phone","Chal bee" ,"Not valid");
 		
 				

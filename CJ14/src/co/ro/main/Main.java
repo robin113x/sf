@@ -18,16 +18,17 @@ public class Main {
 		@SuppressWarnings("resource")
 		ApplicationContext context = new AnnotationConfigApplicationContext(javaConfig.class);
 		Student std = context.getBean(Student.class);
-		std.setName("Robin Aishu");
-		std.setRoll(12);
-		std.setPhone("1235771812");
+		std.setName("");
+		std.setRoll(0);
+		std.setPhone("123577182");
 
 		DataBinder databinder = new DataBinder(std);
 		databinder.addValidators(new StudentValidator());
 		databinder.validate();
 		List<ObjectError> list = databinder.getBindingResult().getAllErrors();
 		if (!list.isEmpty()) {
-			for(ObjectError oe:list) System.out.println(oe.getDefaultMessage());
+			for (ObjectError oe : list) 
+				System.out.println(oe.getDefaultMessage());
 		} else
 			System.out.println(std.toString());
 	}
