@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("co.ro.bean")
+@ComponentScan("co.ro.bean,co.ro.validators")
 public class javaConfig {
 
 }

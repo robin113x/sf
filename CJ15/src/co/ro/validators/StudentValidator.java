@@ -1,10 +1,12 @@
 package co.ro.validators;
 
+import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 import co.ro.bean.Student;
 
+@Component("validObj")
 public class StudentValidator implements Validator {
 
 	@Override
