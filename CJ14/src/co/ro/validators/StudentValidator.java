@@ -9,8 +9,8 @@ public class StudentValidator implements Validator {
 
 	@Override
 	public boolean supports(Class<?> clazz) {
-		boolean b=Student.class.equals(clazz);
-		return b;
+		
+		return Student.class.equals(clazz);
 	}
 
 	@Override
