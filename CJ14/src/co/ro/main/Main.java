@@ -17,18 +17,19 @@ public class Main {
 		// TODO Auto-generated method stub
 		@SuppressWarnings("resource")
 		ApplicationContext context = new AnnotationConfigApplicationContext(javaConfig.class);
-		Student std = context.getBean("stdObj",Student.class);
+		Student std = context.getBean(Student.class);
 		std.setName("Robin Aishu");
-		std.setRoll(1234);
-		std.setPhone("12356778");
-		
+		std.setRoll(12);
+		std.setPhone("1235771812");
+
 		DataBinder databinder = new DataBinder(std);
 		databinder.addValidators(new StudentValidator());
 		databinder.validate();
-		List<ObjectError> list= databinder.getBindingResult().getAllErrors();
-		System.out.println(list);
-		
-		System.out.println(std.toString());
+		List<ObjectError> list = databinder.getBindingResult().getAllErrors();
+		if (!list.isEmpty()) {
+			for(ObjectError oe:list) System.out.println(oe.getDefaultMessage());
+		} else
+			System.out.println(std.toString());
 	}
 
 }
