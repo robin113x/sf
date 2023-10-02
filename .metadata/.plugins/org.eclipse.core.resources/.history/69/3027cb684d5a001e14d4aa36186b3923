@@ -1,7 +1,0 @@
-package co.ro.beans;
-
-public class Students {
-	private String name;
-	pri
-
-}

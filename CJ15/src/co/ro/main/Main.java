@@ -6,7 +6,6 @@ import java.util.Map;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.validation.DataBinder;
 import org.springframework.validation.MapBindingResult;
 import org.springframework.validation.ObjectError;
 
