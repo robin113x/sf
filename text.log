@@ -1,40 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
-<record>
-  <date>2023-10-08T20:49:06.604246300Z</date>
-  <millis>1696798146604</millis>
-  <nanos>246300</nanos>
-  <sequence>0</sequence>
-  <logger>Test2</logger>
-  <level>SEVERE</level>
-  <class>co.ro.log.Test2</class>
-  <method>main</method>
-  <thread>1</thread>
-  <message>This Is very Important ...</message>
-</record>
-<record>
-  <date>2023-10-08T20:49:06.652941800Z</date>
-  <millis>1696798146652</millis>
-  <nanos>941800</nanos>
-  <sequence>1</sequence>
-  <logger>Test2</logger>
-  <level>WARNING</level>
-  <class>co.ro.log.Test2</class>
-  <method>main</method>
-  <thread>1</thread>
-  <message>Warning Message</message>
-</record>
-<record>
-  <date>2023-10-08T20:49:06.653904600Z</date>
-  <millis>1696798146653</millis>
-  <nanos>904600</nanos>
-  <sequence>2</sequence>
-  <logger>Test2</logger>
-  <level>INFO</level>
-  <class>co.ro.log.Test2</class>
-  <method>main</method>
-  <thread>1</thread>
-  <message>Information </message>
-</record>
-</log>
+Oct 09, 2023 2:31:21 AM co.ro.log.Test2 main
+SEVERE: This Is very Important ...
+Oct 09, 2023 2:31:21 AM co.ro.log.Test2 main
+WARNING: Warning Message
+Oct 09, 2023 2:31:21 AM co.ro.log.Test2 main
+INFO: Information 
