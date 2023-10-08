@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-08T20:48:19.098926500Z</date>
+  <millis>1696798099098</millis>
+  <nanos>926500</nanos>
+  <sequence>0</sequence>
+  <logger>Test2</logger>
+  <level>SEVERE</level>
+  <class>co.ro.log.Test2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This Is very Important ...</message>
+</record>
+<record>
+  <date>2023-10-08T20:48:19.147771800Z</date>
+  <millis>1696798099147</millis>
+  <nanos>771800</nanos>
+  <sequence>1</sequence>
+  <logger>Test2</logger>
+  <level>WARNING</level>
+  <class>co.ro.log.Test2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Warning Message</message>
+</record>
+<record>
+  <date>2023-10-08T20:48:19.147771800Z</date>
+  <millis>1696798099147</millis>
+  <nanos>771800</nanos>
+  <sequence>2</sequence>
+  <logger>Test2</logger>
+  <level>INFO</level>
+  <class>co.ro.log.Test2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Information </message>
+</record>
+</log>

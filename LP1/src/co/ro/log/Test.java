@@ -8,6 +8,8 @@ public class Test {
 		
 		Logger logger = Logger.getLogger("Test");
 		logger.log(Level.SEVERE, "This Is very Important ...");
+		logger.log(Level.WARNING,"Warning Message");
+		logger.log(Level.INFO,"Information ");
 		
 	}
 }
